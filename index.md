@@ -1,0 +1,182 @@
+<html>
+<title>Prateek-Projects</title>
+<head></head>
+
+
+<style>
+#loader { 
+            border: 12px solid #f3f3f3; 
+            border-radius: 50%; 
+            border-top: 12px solid #444444; 
+            width: 70px; 
+            height: 70px; 
+            animation: spin 1s linear infinite; 
+        } 
+          
+        @keyframes spin { 
+            100% { 
+                transform: rotate(360deg); 
+            } 
+        } 
+          
+        .center { 
+            position: absolute; 
+            top: 0; 
+            bottom: 0; 
+            left: 0; 
+            right: 0; 
+            margin: auto; 
+        }
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+top: 10px;
+position:fixed;
+width:100%;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position:fixed;
+  background-color:violet;
+}
+
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: fixed;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  position:fixed;
+  background-color:violet;
+}
+body{background-color:#FFFDD0}
+
+</style>
+
+<body>
+
+<div id="loader" class="center"></div>
+
+
+<div class="topnav">
+  <a class="active" href="https://prateekkv.github.io/prateek/">Home</a>
+  <a href="#news">Achievements</a>
+  
+<div class="dropdown">
+  <a href="#contact">contact</a>
+  <div class="dropdown-content">
+  <oi><a href="mailto:prateekkv14@gmail.com">Gmail</a>
+  <a href="tel:+918867913376">Phone</a>
+  </oi></div>
+</div>
+
+</div>
+
+
+
+
+<pre>
+
+
+
+
+<p><b><i><marquee style="font-size:20pt; height=35px; width=100%" scrollamount="12"  direction="left" behavior="" bgcolor="cyan"  onmouseover="this.stop()" onmouseout="this.start()">HELLO! WELCOME!!</marquee></i></b></p>
+
+<p1 style="font-size:25px">I had developed a website named as "Sharing Library" through which we can share books for free, 
+The main objective of the project was to share the books at free of cost for the person who 
+are in need it. My moto was to use the technology for gaining knowledge, not for buying knowledge!</p1>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<center style="background-color:cyan;width:100%"><a href="https://www.instagram.com/prateek14_" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1AQr6MYvJBhDhjA9tbIxtcNwlgJ0vS2iz"width="50"height="50"></a> <a href="https://www.facebook.com/profile.php?id=100005924508004" target="_blank"><img src="https://drive.google.com/uc?export=view&id=11oxk6JGADHLUC9JNsEVlSH2aunwiui9_"width="50" height="50"></a> <a href="https://api.whatsapp.com/send?phone=918867913376" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1YlvVrQbFFO9icXMJxU00NtnRx-F3OpMk"width="50" height="50"></a> <a href="mailto:prateekkv14@gmail.com" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1yhpJ458DtEdrUCFnVGrYYepphElRitT_"width="50"height="50"></a> <a href="https://www.linkedin.com/in/prateek-kv-7352501b3" target="_blank"><img src="https://drive.google.com/uc?export=view&id=1PIDPQB3OLwSItHU5oCMQdapyT68cVk4H"width="50"height="50"></a></center>
+
+
+</pre>
+
+
+
+
+
+
+
+
+
+
+
+<script> 
+        document.onreadystatechange = function() { 
+            if (document.readyState !== "complete") { 
+                document.querySelector( 
+                  "body").style.visibility = "hidden"; 
+                document.querySelector( 
+                  "#loader").style.visibility = "visible"; 
+            } else { 
+                document.querySelector( 
+                  "#loader").style.display = "none"; 
+                document.querySelector( 
+                  "body").style.visibility = "visible"; 
+            } 
+        }; 
+    </script>
+</body>
+</html>
